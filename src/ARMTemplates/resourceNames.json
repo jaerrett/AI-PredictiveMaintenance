@@ -1,0 +1,21 @@
+{
+    "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentTemplate.json#",
+    "contentVersion": "1.0.0.0",
+    "variables": {        
+        "uniqueString": "[uniqueString(resourceGroup().id)]",        
+        "webSiteName": "[concat('pdm-demo-', variables('uniqueString'))]",
+        "location": "[resourceGroup().location]",
+        "vmName": "[toLower(concat('pm', uniqueString(resourceGroup().id), '.', variables('location'), '.cloudapp.azure.com'))]"
+    },
+    "resources": [],
+    "outputs": {
+        "webSiteName": {
+            "type": "string",
+            "value": "[variables('webSiteName')]"
+        },
+        "vmName": {
+            "type": "string",
+            "value": "[variables('vmName')]"
+        }
+    }
+}
