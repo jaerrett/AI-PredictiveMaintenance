@@ -30,7 +30,7 @@ Deploying the solution will create a resource group in your subscription and pop
 
 ### Issues
 
-If you discover any bugs, please file an issue [here](https://github.com/Azure/AI-PredictiveMaintenance/issues), making sure to fill out the provided template with the appropriate information.
+If you discover any bugs, please file an issue [here](https://github.com/jaerrett/AI-PredictiveMaintenance/issues), making sure to fill out the provided template with the appropriate information.
 
 ### Feedback
 
