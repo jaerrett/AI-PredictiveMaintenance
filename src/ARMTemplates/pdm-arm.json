@@ -57,7 +57,7 @@
           }
     },
     "variables": {
-         "gitHubBaseUrl": "https://raw.githubusercontent.com/Azure/AI-PredictiveMaintenance/master/"   
+         "gitHubBaseUrl": "https://raw.githubusercontent.com/jaerrett/AI-PredictiveMaintenance/master/"   
         },
     "resources": [
         {
